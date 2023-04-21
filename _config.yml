@@ -4,10 +4,17 @@ description: This is a place where I store, summarize, curate, and share things 
 
 plugins:
   - jekyll-include-cache
+  - jekyll-feed
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 minimal_mistakes_skin: "dark"
 
+# RSS feed settings
 feed:
-  path: feed.xml
+  title: Your Site Title
+  description: Your Site Description
+  author: Denis Cabrera
+  email: your-email@example.com
+  url: https://deniscabrera.github.io/Wiki/
+  output: /feed.xml
