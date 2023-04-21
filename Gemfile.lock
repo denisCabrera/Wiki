@@ -255,7 +255,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-include-cache
-  webrick
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.12
