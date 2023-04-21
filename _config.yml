@@ -1,6 +1,8 @@
-theme: minimal-mistakes-jekyll
 title: Denis' Cyber Wiki
 author: Denis Cabrera
 description: This is a place where I store, summarize, curate, and share things I am learning and things I want to learn
 
+plugins:
+  - jekyll-include-cache
 
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
