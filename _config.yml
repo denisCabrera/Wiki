@@ -18,3 +18,8 @@ feed:
   email: your-email@example.com
   url: https://deniscabrera.github.io/Wiki/
   output: /feed.xml
+  
+# NAVIGATION MENU 
+header_pages:
+  - rumerica/index.md
+  - about.md
