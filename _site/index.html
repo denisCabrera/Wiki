@@ -87,6 +87,11 @@
 
   <body class="layout--home">
     <nav class="skip-links">
+      <ul>
+    {% for item in site.data.navigation %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
